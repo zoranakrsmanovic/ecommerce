@@ -1,0 +1,70 @@
+table{
+    height: 500px;
+    margin:auto;
+    -webkit-box-shadow: 0px 11px 48px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 48px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 48px -10px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    background-image: url('background.jpg');
+    background-size: 750px 571px;
+}
+body{
+    overflow: visible;
+
+}
+form table tr td input[type=text],input[type=password],select,input[type=file]{
+    border-top: none;
+    border-bottom: 3px solid #d739d8;
+    border-left: none;
+    border-right: none;
+    padding: 10px 5px;
+    width:250px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    margin-top: 0px;
+    color: white;
+    margin-left: 10px;
+    
+   
+}
+form table tr td textarea{
+    
+    border-top:3px solid #d739d8;
+    border-bottom: 3px solid #d739d8;
+    border-left:3px solid #d739d8;
+    border-right: 3px solid #d739d8;
+    padding: 10px 5px;
+    width:250px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+}
+form table tr td{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+   
+}
+#submit_login{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 40px;
+    -webkit-box-shadow: 0px 11px 43px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 43px 9px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 43px 9px rgba(0,0,0,0.75);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+    #submit_login:hover{
+        background-color:#001e50 ;
+    }
+
