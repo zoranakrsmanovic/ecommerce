@@ -1,0 +1,44 @@
+#cart_table{
+    margin-left: 30px;
+    width:900px;
+    height: auto;
+    -webkit-box-shadow: 1px 6px 14px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 14px -8px rgba(0,0,0,0.75);
+    box-shadow: 1px 6px 14px -8px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    background-color:transparent;
+}
+.th1 p{
+  
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.checkbox-custom{
+    width: 20px;
+    height: 20px;
+}
+td p{
+    font-family: 'Montserrat', sans-serif; 
+}
+td input[type=text] {
+    width: 40px;
+    height: 30px;
+    margin: 8px 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: none;
+    border: 2px solid black;
+  }
+  .btnCart{
+      color:#246ca8;
+      border: 3px solid #246ca8;
+      font-family: 'Montserrat', sans-serif;
+      margin: 20px;
+      width: 150px;
+      height: 40px;
+      background-color: transparent;
+      cursor: pointer;
+
+
+  }

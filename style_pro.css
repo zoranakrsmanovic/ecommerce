@@ -1,0 +1,99 @@
+#single_product{
+    margin: 5px;
+    width: 20%;
+    height: 380px;
+    -webkit-box-shadow: -3px 7px 39px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 7px 39px -14px rgba(0,0,0,0.75);
+    box-shadow: -3px 7px 39px -14px rgba(0,0,0,0.75)
+}
+#single_product:hover{
+    -webkit-box-shadow: -2px 10px 32px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 10px 32px -4px rgba(0,0,0,0.75);
+box-shadow: -2px 10px 32px -4px rgba(0,0,0,0.75);
+}
+#pro_img{
+    margin-top: -10px;
+    width: 108%;
+    height: 60%;
+    margin-left: -4%;
+    margin-bottom: 5px;
+
+
+}
+#pro_title{
+    margin-bottom: 5px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    width: 100%;
+   
+   
+}
+#pro_price{
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 10px;
+}
+.cart{
+    color: white;
+    height: 20px;
+    width: 20px;
+}
+#btn_addToCart {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:#1563d1;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  #btn_addToCart span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #btn_addToCart span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -5px;
+    transition: 0.5s;
+  }
+  
+  #btn_addToCart:hover span {
+    padding-right: 25px;
+  }
+  
+  #btn_addToCart:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  #details {
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top:10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+    color: #1563d1;
+    border: 1px solid #1563d1;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #details:hover{
+      background-color: #1563d1;
+      color: white
+      
+  }

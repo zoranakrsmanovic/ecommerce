@@ -1,0 +1,10 @@
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+#product_box img {
+    width: 200px;
+    height: 230px;
+
+}

@@ -1,0 +1,59 @@
+table{
+    height: 620px;
+    background-image: url('modal.jpg');
+    background-size: 600px 620px;
+    -webkit-box-shadow: 0px 11px 36px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 36px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 36px -3px rgba(0,0,0,0.75);
+    background-color: teal;
+    width: 600px;
+}
+form{
+    margin-top: 30px;
+}
+form table tr td input[type=text],input[type=password],select,input[type=file]{
+    border-top: none;
+    border-bottom: 3px solid #3499d6;
+    border-left: none;
+    border-right: none;
+    padding: 10px 5px;
+    width:250px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    margin-top: -30px;
+    color: white;
+    margin-left: 10px;
+    
+    
+   
+}
+form table tr td{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+form table tr td h2{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 30px;
+}
+#submit_login{
+    width: 200px;
+    height: 40px;
+    -webkit-box-shadow: 0px 11px 43px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 43px 9px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 43px 9px rgba(0,0,0,0.75);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+    #submit_login:hover{
+        background-color:#001e50 ;
+    }
