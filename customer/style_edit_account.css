@@ -1,0 +1,55 @@
+#forma{
+    margin-top: -460px;
+    margin-left: 130px;
+
+}
+#forma table tr td h2{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+}
+#forma table tr td input[type=text],input[type=password],select,input[type=file]{
+    border-top: none;
+    border-bottom: 3px solid #3499d6;
+    border-left: none;
+    border-right: none;
+    padding: 10px 5px;
+    width:250px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    margin-bottom: 20px;
+   
+}
+#side-bar{
+    height: 1000px;
+}
+#middle-part{
+    height: 1000px;
+}
+
+body{
+ overflow: scroll;
+}
+#maincontent{
+    height: 1000px;
+}
+#forma table tr td p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+#update{
+    height: 50px;
+    width: 120px;
+    padding: 10px 10px;
+    border: none;
+    margin-top: 40px;
+    font-size: 14px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}

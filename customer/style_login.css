@@ -1,0 +1,76 @@
+table{
+    background-color: teal;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-image: url('../modal.jpg');
+    background-size: 400px 500px;
+    -webkit-box-shadow: 0px 11px 36px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 36px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 36px -3px rgba(0,0,0,0.75);
+    
+}
+form table tr td h2{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 30px;
+}
+#forma1 table tr td input[type=text],input[type=password]{
+    border-top: none;
+    border-bottom: 3px solid #3499d6;
+    border-left: none;
+    border-right: none;
+    padding: 10px 5px;
+    width:250px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    margin-top: -30px;
+    color: white;
+    
+   
+}
+#forma1 table tr td p{
+    margin-top: -10px;
+    color: thistle;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 15px;
+
+}
+#submit_login{
+    width: 100px;
+    height: 40px;
+    -webkit-box-shadow: 0px 11px 43px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 43px 9px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 43px 9px rgba(0,0,0,0.75);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#border_new{
+    border: none;
+    outline: none;
+    float: right;
+    width: 300px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #001e50;
+    -webkit-box-shadow: 0px 11px 36px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 36px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 36px -3px rgba(0,0,0,0.75);
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 20px;
+}
+body{
+    overflow: hidden;
+
+}
+#submit_login:hover{
+    background-color:#001e50 ;
+}
+
